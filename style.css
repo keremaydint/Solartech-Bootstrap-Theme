@@ -1,0 +1,80 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --green: #4caf50;
+  --softgreen: #8bc34a;
+  --iconcolor: #2196f3;
+  --sun: #ffeb3b;
+  --softblack: #555555;
+}
+
+.bg-dark {
+  background-color: var(--softgreen) !important;
+}
+
+.bg-primary {
+  background-color: var(--softgreen) !important;
+}
+
+.text-color {
+  color: var(--softgreen);
+}
+
+.btn-special {
+  background-color: var(--softgreen);
+}
+
+.btn-outline-light:hover {
+  color: var(--softgreen) !important;
+}
+
+.soft-black {
+  color: var(--softblack) !important;
+}
+
+.btn-success {
+  background-color: var(--softgreen);
+  border: none !important;
+}
+/* .header .header-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+} */
+
+@media (max-width: 768px) {
+  .header .buttons button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--softgreen);
+  color: var(--white);
+}
+
+.testimonial .testimonial-content {
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 36px;
+}
+
+@media (max-width: 768px) {
+  .testimonial .testimonial-content {
+    font-size: 1rem;
+  }
+}
+
+.card .text-muted {
+  font-size: 0.8rem;
+}
